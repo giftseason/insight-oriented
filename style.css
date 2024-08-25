@@ -42,7 +42,7 @@ img{
 }
 
 section{
-    padding: 3rem 0 2rem;
+    padding: 1rem 0 2rem;
 }
 
 .container{
@@ -57,11 +57,11 @@ a{
 
 /* HEADER */
 header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 200;
+    
 }
 
 header.shadow{
@@ -89,16 +89,6 @@ header.shadow .logo{
 
 .logo span{
     color: var(--second-color);
-}
-
-
-.home{
-    width: 100%;
-    min-height: 200px;
-    background: white;
-    display: grid;
-    justify-content: center;
-    align-items: center;
 }
 
 
