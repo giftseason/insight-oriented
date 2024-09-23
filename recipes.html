@@ -9,7 +9,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-64RWGDREG9"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,14 +17,18 @@
 
   gtag('config', 'G-64RWGDREG9');
 </script>
-    
 <body>
     <header>
         <div class="nav container">
+            <div class="toggle-btn" onclick="myFunction();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="logo">
                 <a href="home.html" target="_blank"> <img src="images/cultural-insights-logo.jpg" width="125px"></a>            
             </div>
-            <nav>
+            <nav id="nav">
             <ul id="MenuItems">
                     <li><a href="home.html" target="_blank">Home</a></li>
                     <li><a href="about.html" target="_blank">About</a></li>
@@ -120,12 +123,19 @@
         
         
         <div class="footer-bottom">
-            &copy; insight-oriented.com | Designed by Tatyana Garkavaya
+            &copy; 2024 Tatyana Garkavaya and insight-oriented.com | Designed by Tatyana Garkavaya
         </div>    
     </div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="main.js"></script>
+<script type="text/javascript">
+
+    function myFunction(){
+         var navbar = document.getElementById('nav');
+         navbar.classList.toggle('show');
+    }
+</script>
 </body>
 </html>

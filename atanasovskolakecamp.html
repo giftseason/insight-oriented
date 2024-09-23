@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultural Insights | Trips | 5 Fascinating Insights into the Conservation Camp Atanasovsko Lake</title>
+    <title>Cultural Insights | Trips | Mapping Sustainable Holidays in Bulgaria: Atanasovsko Lake</title>
     <!-- Box-icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-64RWGDREG9"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-64RWGDREG9"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-64RWGDREG9');
-    </script>
-    
+</script>
 <body>
     <header>
         <div class="nav container">
+            <div class="toggle-btn" onclick="myFunction();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="logo">
                 <a href="home.html" target="_blank"> <img src="images/cultural-insights-logo.jpg" width="125px"></a>            
             </div>
-            <nav>
+            <nav id="nav">
             <ul id="MenuItems">
                     <li><a href="home.html" target="_blank">Home</a></li>
                     <li><a href="about.html" target="_blank">About</a></li>
@@ -78,7 +81,7 @@
         <div class="contentBx">
             <p>Trips</p>
             <br>
-            <h1 class="titleText">5 Fascinating Insights into the Conservation Camp Atanasovsko Lake: Making Utopia Work</h1>
+            <h1 class="titleText">Mapping Sustainable Holidays in Bulgaria: Atanasovsko Lake</h1>
             <br>
         </div>
         <p><strong>Get insights into the oldest Bulgarian volunteer nature conservation vacation - the Conservation Camp Atanasovsko Lake!</strong></p>
@@ -93,7 +96,9 @@
             <br>
             <h2>1 What is the Volunteer Conservation Camp Atanasovsko Lake?</h2>
             <br>
-            <p>In the midst of the autumn bird migration, with this post, I share insights into authentic birdwatching experiences in Burgas - the Conservation Camp Atanasovsko Lake, the oldest Bulgarian volunteer nature conservation vacation with 30+ years of history. Together with the participants and organisers of the projects, we talk about how nature, birds and volunteering link different generations of Bulgarians over decades.</p>
+            <p>In the midst of the autumn bird migration, with this post, I share insights into authentic birdwatching experiences in Burgas - the Conservation Camp Atanasovsko Lake, the oldest Bulgarian volunteer nature conservation vacation with 30+ years of history.</p> 
+            <br>   
+            <p>Together with the participants and organisers of the projects, we talk about how nature, birds and volunteering link different generations of Bulgarians over decades.</p>
             <br>
             <p>For over three decades, <a href="https://bspb.org/tag/атанасовско-езеро/">the Conservation Camp Atanasovsko Lake</a> (Burgas) has become a long-awaited, traditional summer volunteer vacation for nature lovers. The project is run by the Bulgarian Society for the Protection of Birds (BSPB). This camping holiday takes place annually at the end of August and lasts one week.</p> 
             <br>
@@ -294,5 +299,12 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
+    <script type="text/javascript">
+
+        function myFunction(){
+             var navbar = document.getElementById('nav');
+             navbar.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>
