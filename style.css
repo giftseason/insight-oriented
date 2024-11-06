@@ -394,7 +394,11 @@ header.shadow .logo{
     font-weight: 400;
 }
 
-
+.caption{
+    font-size: 0.8rem;
+    font-style: italic;
+    color: grey;
+}
 
 
 /* FOOTER */
